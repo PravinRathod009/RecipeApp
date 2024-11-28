@@ -6,7 +6,7 @@ const Mainpage = () => {
     const [search, setSearch] = useState("");
     const [msg, setMsg] = useState("")
 
-    setSearch("cake")
+    
     const handleInput = (event) =>{
         setSearch(event.target.value)
     }
