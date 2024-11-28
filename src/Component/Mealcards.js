@@ -5,7 +5,7 @@ const Mealcards = ({detail}) => {
     console.log(detail);
   return (
     <div className='meals'>
-        {!detail ? "Search dish Data Not Found" : detail.map((curItem)=>{
+        {!detail ? "Search dish..!" : detail.map((curItem)=>{
             return (
                 <div className='mealImg'>
                   <img src={curItem.strMealThumb}/>
